@@ -29,12 +29,12 @@ main {
         margin-top: 0.5rem;
         text-align: center;
     }
-    #img{
+    #img {
         text-align: center;
-        img{
+        img {
             width: 80px;
             border-radius: 50%;
-            border : 2px solid white;
+            border: 2px solid white;
         }
     }
     form {
@@ -79,10 +79,13 @@ main {
             color: var(--danger);
             display: none;
         }
-        button {
-            border: var(--border);
-            border-radius: 18px;
-            padding: 5px 10px;
+        #btn {
+            text-align: center;
+            button {
+                border: var(--border);
+                border-radius: 18px;
+                padding: 5px 10px;
+            }
         }
     }
 }
